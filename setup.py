@@ -117,6 +117,7 @@ setup(
         "textX >= 3.0.0; python_version >= '3.6'",
         "multiprocess",
         "caliper-reader",
+        "Cython",
     ],
     ext_modules=ext_modules,
     cmdclass=cmd_class,
